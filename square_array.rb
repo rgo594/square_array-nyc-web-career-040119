@@ -1,6 +1,6 @@
 
 def square_array(array)
-  array.each do 
-   array.collect! {|num| Math.sqrt(num)}
+  array.each do |num|
+   array.each num ** 2
   end
 end
